@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body{background-color: #fca461/*#a16c64*/;}
+
+main{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fcb37b;
+    text-align: center;
+}
+
+article{
+    display: grid;
+    grid-template-columns:  200px 200px 200px;
+    grid-template-rows: auto auto;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+article div{
+    border: 1px solid gray;
+}
+
+article div img{
+    width: 100%;
+}
